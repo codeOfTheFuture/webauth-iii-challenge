@@ -5,7 +5,7 @@ module.exports = {
     client: 'sqlite3',
     useNullAsDefault: true,
     connection: {
-      filename: './data/webauth-iii-db3',
+      filename: './data/webauth-iii-challenge.db3',
     },
     pool: {
       afterCreate: (conn, done) => {
